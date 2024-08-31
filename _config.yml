@@ -1,0 +1,92 @@
+# Site settings
+title: The Penguin Jean
+description: "Penguin Jean is amazing" # this means to ignore newlines until "baseurl:"
+permalink: ":title:output_ext"
+baseurl: "/" # the subpath of your site, e.g. /blog
+url: "https://penguinjean0421.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+logo: "/assets/img/branding/PJT-logo-full.svg"
+logo-icon: "/assets/img/branding/PJT-symbol.svg"
+logo-icon-SEO: "/assets/img/branding/PJT-symbol-black.png" # must be a non SVG file
+
+# Night/Dark mode
+# Default mode is "auto", "auto" is for auto nightshift
+# (19:00 - 07:00), "manual" is for manual toggle, and
+# "on/off" is for default on/off.
+#
+# Whatever the user's choice is, it will supersede the
+# default setting of the site and be kept during the
+# visit (session). Only the dark mode setting is "manual",
+# it will be always kept on every visit (i.e. no matter
+# the browser is closed or not)
+night_mode: "auto"
+
+logo-dark: "/assets/img/branding/PJT-logo-full-dark.svg"
+highlight_theme: syntax-base16.monokai.dark # select a dark theme for the code highlighter if needed
+
+# Author settings
+author: Penguin Jean # add your name
+author-pic: Myself_Secret_Garden.jpg
+about-author: 게임과 오마이걸을 좋아합니다. 오마이걸 반하나의 데뷔팬으로 '바나나 알러지 원숭이' 앨범을 매우 좋아하고, 다양한 장르의 게임을 즐깁니다. 덕업일치를 꿈꾸며 게임학과에 진학했습니다.
+
+# Contact links
+email: penguinjean0421@gmail.com # Add your Email address
+phone: # Add your Phone number
+website: https://penguinjean0421.github.io # Add your website
+linkedin: penguinjean0421 # Add your Linkedin handle
+github: penguinjean # Add your Github handle
+twitter: "@penguinjean0421" # Add your Twitter handle
+soundcloud: penguinjean0421 # Add your soundcloud username
+behance: penguinjean # Add your behance account
+
+# Newsletter
+mailchimp: "https://github.us1.list-manage.com/subscribe/post?u=8ece198b3eb260e6838461a60&amp;id=397d90b5f4"
+
+# Tracker
+analytics:
+fbadmin: ar.maybach
+
+# Paginate
+paginate: 6
+paginate_path: "page:num"
+words_per_minute: 200
+
+extensions:
+  mermaid_enable: true
+
+# Comments
+comments: utteranc #[disqus, utteranc]
+comments_opts:
+  comments_curtain: yes # leave empty to show the disqus embed directly
+  repo: # The GitHub repo URL.  https://utteranc.es/
+  issue_term: # The GitHub issue label
+  label: # The GitHub comments label
+  theme: # The GitHub comment's there. e.g. github-dark
+  # Disqus
+  discus_identifier: # Add your discus identifier
+
+# Build settings
+markdown: kramdown
+mathjax: true
+highlighter: rouge
+compress_html:
+  clippings: all
+  comments: all
+  startings: [html, head, body]
+
+# Outputting
+timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+
+category_archive:
+  type: liquid
+  path: /categories/
+
+sass:
+  style: compressed
+
+plugins:
+  - jekyll-paginate
+  - jekyll-feed
+  - jekyll-sitemap
+
+include: [_pages]
+exclude: ["node_modules", "gulpfile.js", "package.json", "yarn.lock", "package-lock.json", "assets/css/sass/"] 
