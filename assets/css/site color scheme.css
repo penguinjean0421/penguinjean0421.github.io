@@ -1,0 +1,38 @@
+/* = = = = = = = = = = CURRENT  = = = = = = = = = = = = */
+:root {
+--accent:       #E05A47;    /* accent */
+--accent-dark:  #3D354E;    /* accent 2 (dark) */
+--main:         #0f4c81;    /* main color */
+--main-dim:     #6C8EA4;    /* dimmed version of main color */
+--text:         #1E2933;    
+--grey1:        #505A62;    
+--grey2:        #7E8B95;    
+--grey3:        #A8B4BD;    
+--grey4:        #D3DCE1;    
+--grey5:        #F2F5F7;    
+--background:   #ffffff;    
+--shadow:      rgba(15, 30, 45, 0.12);
+}
+/*
+https://coolors.co/326273-4e3e51-db504a-201e1e-5f5e58-8d897c-b4b3a7-dad7d2-f0efed
+*/
+/* DARK MODE colder */
+html[data-theme="dark"]  {
+    --accent:       #E05A47;    /* accent */
+    --accent-dark:  #A288C3;    /* accent 2 (dark) */
+    --main:         #4A8CB9;    /* main color */
+    --main-dim:     #213242;    /* dimmed version of main color */
+    --text:         #E3E8ED;
+    --grey1:        #B0BAC3;
+    --grey2:        #8795A1;
+    --grey3:        #5F6D7A;
+    --grey4:        #3B4754;    
+    --grey5:        #232D37;
+    --background:   #182026;
+    --shadow:       rgba(0, 0, 0, 0.4);
+    }
+    
+    /*
+    https://coolors.co/d14c47-DBBEA1-5F8081-2B323B-cbcccd-b1b1ae-959692-7c7e7b-636564-3B3D40 
+    https://coolors.co/d14c47-DBBEA1-5f8081-333d47-2B323B-cbcccd-b1b1ae-959692-636564-3B3D40
+    */

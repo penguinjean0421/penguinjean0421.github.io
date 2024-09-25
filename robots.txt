@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://penguinjean0421.github.io/sitemap.xml
