@@ -1,0 +1,31 @@
+/* = = = = = = = = = = CURRENT  = = = = = = = = = = = = */
+:root {
+    --accent:       #E05A47;         /* accent     */
+    --accent-dark:  #2D3A52;   /* accent 2   */
+    --main:         #0F4C81;         /* main color */
+    --main-dim:     #688AAB;     /* dimmed version of main color */
+    --text:         #1D232A;
+    --grey1:        #555D66;
+    --grey2:        #838D99;
+    --grey3:        #B2B9C0;
+    --grey4:        #DFE3E8;
+    --grey5:        #F3F5F7;
+    --background:   #FFFFFF;
+    --shadow:       rgba(15, 76, 129, 0.12);
+}
+
+/* DARK MODE colder */
+html[data-theme="dark"]  {
+    --accent:       #EE6B5E;    /* accent     */
+    --accent-dark:  #E8C8A3;    /* accent 2   */
+    --main:         #3A7CA5;    /* main color */
+    --main-dim:     #1C3347;    /* dimmed version of main color */
+    --text:         #E2E8F0;
+    --grey1:        #C3CBD5;
+    --grey2:        #98A2B0;
+    --grey3:        #636E7B;
+    --grey4:        #3D4652;
+    --grey5:        #232A33;
+    --background:   #151B22;
+    --shadow:       rgba(0, 0, 0, 0.4);
+}

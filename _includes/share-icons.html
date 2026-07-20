@@ -1,0 +1,13 @@
+<div class="share-options {{ include.class }}">
+    <div class="share-hover {{ include.class }}">
+        <span class="share-button {{ include.class }}"><i class="fa fa-share-alt {{ include.class }}" aria-hidden="true" style="font-size: 25px; width: 25px; height: 25px; display: inline-block;"></i></span>
+        <div class="share-icons {{ include.class }}" id="{{ include.id }}-icons">
+            <a class="twitter" href="https://twitter.com/intent/tweet?text={{ page.title }}&url={{ site.url }}{{ page.url }}" title="Share on Twitter" rel="nofollow" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+            <a class="reddit" href="http://www.reddit.com/submit?url={{ site.url }}{{ page.url }}&title={{ page.title }}" title="Submit to Reddit" rel="nofollow" target="_blank"><i class="fa fa-reddit" aria-hidden="true"></i></a>
+            <a class="linkedin" href="https://www.linkedin.com/shareArticle?mini=true&url={{ site.url }}{{ page.url }}&title={{ page.title }}&summary={{ page.description }}&source={{ site.url }}{{ page.url }}" title="Share on LinkedIn" rel="nofollow" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+            <a class="email" href="mailto:?subject={{ page.title }}&body={{ page.description }}%0A%0ARead more here: {{ site.url }}{{ page.url }}" title="Share via e-mail" rel="nofollow" target="_blank"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+            <a class="copy-link" onclick="copyToClipboard()" title="Copy to clipboard" rel="nofollow" target="_blank"><i class="fa fa-link {{ include.class }}" aria-hidden="true" style="font-size: 20px; width: 20px;"></i></a>
+        </div>
+    </div>
+    <div class='alert' style='font-size:.6em;color:var(--accent);text-align:center;'></div>
+</div>
