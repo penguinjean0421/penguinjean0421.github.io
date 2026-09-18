@@ -1,0 +1,19 @@
+# macOS & Windows system files
+.DS_Store
+Thumbs.db
+desktop.ini
+$RECYCLE.BIN/
+
+# IDE 
+/.idea/
+/.vscode/
+.liquidrc
+
+# Jekyll Local build & Caches
+_site/
+.jekyll-cache/
+.jekyll-metadata
+
+# Ruby / Bundler Packages Management
+.bundle/
+vendor/
